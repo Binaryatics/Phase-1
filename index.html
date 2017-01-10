@@ -6,7 +6,7 @@
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
-Version 1.0.2
+Version 1.0.3
 </body>
 <!-- Button to open the modal login form -->
 <button onclick="document.getElementById('id01').style.display='block'">Login</button>
@@ -29,6 +29,9 @@ class="close" title="Close Modal">&times;</span>
       <label><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
+      <label><b>reCAPTCHA</b></label>
+      <div class="g-recaptcha" data-sitekey="6LecWhEUAAAAAJDR5SVSjfSTa_-5ycQ8yWbmGZ76"></div>
+      
       <button type="submit">Login</button>
       <input type="checkbox" checked="checked"> Remember me
     </div>
